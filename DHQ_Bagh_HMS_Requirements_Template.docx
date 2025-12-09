@@ -1,0 +1,295 @@
+District Headquarter Hospital (DHQ) Bagh — Hospital Management System (HMS) Requirements Collection Template
+
+Date: ______________________
+Completed by (name & role): ______________________
+Contact phone / WhatsApp: ______________________
+Email: ______________________
+
+INSTRUCTIONS (please read)
+- This document is a plain-language questionnaire for hospital staff. Answer as fully as you can.
+- If you don’t know a field, write “Don’t know” or leave blank — someone from the project team will follow up.
+- Where multiple choice is provided, tick the option(s) that apply or write details in the space.
+- Add extra pages or attach printouts (hand-written forms, lists, sample reports) where helpful.
+- When finished, return to the project contact or hand it to the district IT/Health focal person.
+
+SECTION 1 — GENERAL INFORMATION
+1. Hospital official name:
+   _______________________________________________________________
+
+2. Address:
+   _______________________________________________________________
+
+3. Main contact person for this project (name, job title):
+   Name: ______________________   Job title: ______________________
+   Phone/WhatsApp: ______________________   Email: ______________________
+
+4. Preferred language for screens/printouts:
+   - [ ] English
+   - [ ] Urdu
+   - [ ] Kashmiri
+   - [ ] Both English & Urdu
+   - Other: ______________________
+
+5. Number of beds (approx):
+   - Total beds: ______
+   - Occupied on average: ______
+
+6. Typical monthly patient volumes (approx):
+   - OPD visits per month: ______
+   - Emergencies per month: ______
+   - Admissions per month: ______
+
+7. Working hours (OPD): From ______ to ______   Days open: ______________________
+
+SECTION 2 — USERS, ROLES, AND ACCESS
+1. List the types of users who will use the system and how many of each:
+   - Reception / Registration clerks: ______
+   - Nurses (OPD/admission/ward): ______
+   - Doctors (general): ______
+   - Specialists (e.g., surgeon, pediatrician): ______
+   - Laboratory staff: ______
+   - Radiology staff: ______
+   - Pharmacy staff: ______
+   - Accounts / Billing staff: ______
+   - Medical records clerk: ______
+   - Admin / Managers: ______
+   - IT/support: ______
+   - Other (name & count): __________________________________________
+
+2. For each user type, briefly describe what they should be able to do (simple words).
+   Example:
+   - Reception: register patient, print token, search patient history.
+   - Doctor: view patient record, add diagnosis, write prescription.
+
+   Use the table below or attach a separate sheet:
+   User type -> Main tasks / permissions
+   _______________________________________________________________
+   _______________________________________________________________
+   _______________________________________________________________
+
+3. Login / access control preferences:
+   - [ ] Simple username/password
+   - [ ] Smart card / physical token
+   - [ ] Biometric (fingerprint)
+   - [ ] Shared workstation logins (one login per shift)
+   - Other: ______________________
+
+4. Audit needs:
+   - Do you need to see who made each change in a patient record?   [ ] Yes  [ ] No
+
+SECTION 3 — PATIENT JOURNEY (Please describe what happens now)
+We will convert this into system screens. Answer step-by-step from patient arrival.
+
+1. How does a new patient come to OPD? (walk-in, appointment, referred, emergency)
+   _______________________________________________________________
+
+2. Registration process (what staff do, what forms are filled, what ID is taken):
+   _______________________________________________________________
+
+3. Does the hospital issue a unique patient ID?
+   - [ ] Yes  [ ] No
+   If yes, who issues and what format (example): ______________________
+
+4. OPD flow (what happens from registration to leaving the hospital):
+   Step 1: ___________________________________________________________
+   Step 2: ___________________________________________________________
+   Step 3: ___________________________________________________________
+   Step 4: ___________________________________________________________
+
+5. Triage / priority handling for emergencies — how decided and recorded:
+   _______________________________________________________________
+
+6. Referral to specialists (how done, who approves, referral slip contents):
+   _______________________________________________________________
+
+7. Admission to hospital (when and by whom is patient admitted from OPD/ER):
+   _______________________________________________________________
+
+8. Discharge process (who completes discharge, what forms, who signs):
+   _______________________________________________________________
+
+SECTION 4 — CLINICAL WORKFLOWS
+Answer for each service (OPD doctors, specialists, lab, radiology, pharmacy, wards).
+
+1. Doctor / Clinical notes:
+   - Do doctors want to type notes, use standard templates, or free-text?
+     - [ ] Templates (e.g., SOAP)
+     - [ ] Free-text
+     - [ ] Short checkboxes (predefined options)
+   - Example templates needed: ______________________
+
+2. Prescriptions:
+   - Paper prescription only? [ ] Yes  [ ] No
+   - Electronic prescription needed? [ ] Yes  [ ] No
+   - Should pharmacy receive prescriptions electronically? [ ] Yes  [ ] No
+   - Any medicine lists / formulary to import? [ ] Yes  [ ] No
+     If yes, attach list.
+
+3. Laboratory tests:
+   - Common tests performed (tick or list): CBC, Urine R/E, Blood Group, RBS, LFT, X-ray, others:
+     _______________________________________________________________
+   - How are samples labelled now? (handwritten, barcodes, sticker)
+     _______________________________________________________________
+   - Do you want electronic test requests, and results published to patient record? [ ] Yes  [ ] No
+   - Do lab machines integrate automatically? [ ] Yes  [ ] No  (If yes, list machine brands/models)
+
+4. Radiology / Imaging:
+   - Which modalities: X-ray, Ultrasound, CT, others: ______________________
+   - How are images stored/accessed? ____________________________________
+   - Do you need printed reports? [ ] Yes  [ ] No
+
+5. Pharmacy:
+   - How is stock managed now? (register, Excel, manual)
+     _______________________________________________________________
+   - Do you want automatic stock decrement when dispensing? [ ] Yes  [ ] No
+   - Do you want expiry management and alerts? [ ] Yes  [ ] No
+
+6. Wards and Inpatient care:
+   - Bed allocation process (how beds assigned, by whom):
+     _______________________________________________________________
+   - Nursing notes (how recorded now; desired): _______________________
+   - Vital signs capture (paper, monitor, manual): _______________________
+   - Meal/food orders, housekeeping requests (yes/no): ___________________
+
+SECTION 5 — BILLING, INSURANCE, AND FINANCE
+1. Is there patient billing at this hospital? [ ] Yes  [ ] No
+   - If yes, types of payments accepted: [ ] Cash  [ ] Card  [ ] Insurance  [ ] Government schemes
+   - Do you need a billing module integrated with pharmacy, lab, radiology? [ ] Yes  [ ] No
+
+2. Are there different tariffs for patients (private vs. govt)? [ ] Yes  [ ] No
+   - If yes, please describe: _________________________________________
+
+3. Any reports needed for accounts (daily cash, monthly revenue)? List:
+   _______________________________________________________________
+
+SECTION 6 — REPORTING & MANAGEMENT INFORMATION
+Please list reports you need (daily, weekly, monthly, yearly). Be as specific as possible.
+
+Examples:
+- Daily OPD count by doctor and by department
+- Admissions and discharges daily
+- Top 10 diagnoses this month
+- Lab tests performed and their positive rates
+- Pharmacy stock and near-expiry items
+
+Write your required reports:
+1. _______________________________________________________________
+2. _______________________________________________________________
+3. _______________________________________________________________
+4. _______________________________________________________________
+(For each report: Preferred frequency (daily/weekly/monthly), format (screen/PDF/Excel), and recipients)
+
+SECTION 7 — DOCUMENTS, FORMS, AND PRINT LAYOUTS
+Attach or describe any existing paper forms to copy into the system (e.g., registration form, prescription slip, discharge summary, lab request slip).
+
+1. Registration form — attach example: [ ] Attached  [ ] Not available
+2. Prescription slip — attach example: [ ] Attached  [ ] Not available
+3. Discharge summary format — attach example: [ ] Attached  [ ] Not available
+4. Lab request slip — attach example: [ ] Attached  [ ] Not available
+
+If possible, staple photocopies of current forms.
+
+SECTION 8 — DATA, REPORTS & RECORD RETENTION
+1. Do you have existing electronic patient records or paper records that must be migrated?
+   - [ ] Paper only
+   - [ ] Some electronic (Excel/other)
+   - [ ] Full electronic system (name: ____________________)
+   If yes, estimated number of past patient records to migrate: ______
+
+2. How long must patient records be kept? (e.g., 5 years, lifetime)
+   _______________________________________________________________
+
+3. Backup needs and frequency (how often would you like backups?)
+   - [ ] Daily
+   - [ ] Weekly
+   - [ ] Monthly
+   - Preferred backup location (on-site USB, hospital server, cloud): _______________
+
+SECTION 9 — HARDWARE & NETWORK
+1. Current computers available for system use (approx numbers and locations):
+   - Reception: ______  / Doctor rooms: ______  / Lab: ______  / Pharmacy: ______  / Wards: ______
+
+2. Internet availability and reliability at the hospital:
+   - [ ] Always available
+   - [ ] Sometimes slow / unreliable
+   - [ ] No internet
+   Details: _______________________________________________________
+
+3. Printers and barcode scanners available? List models if known:
+   _______________________________________________________________
+
+4. Power / electricity issues (frequent outages? backup generator?):
+   _______________________________________________________________
+
+SECTION 10 — PRIVACY, SECURITY & LEGAL
+1. Who may see patient records? (list job roles that need access)
+   _______________________________________________________________
+
+2. Any legal or government requirements to follow for patient privacy?
+   _______________________________________________________________
+
+3. Password rules or policies needed (e.g., change every 90 days)?
+   _______________________________________________________________
+
+SECTION 11 — TRAINING, SUPPORT & ROLL-OUT
+1. Who will provide in-hospital support after the system is installed?
+   - [ ] Hospital IT staff (names/contact): ______________________
+   - [ ] External vendor
+   - [ ] None yet
+
+2. Preferred training plan for staff (choose):
+   - [ ] On-site classroom training
+   - [ ] Train-the-trainer (select staff trained who will train others)
+   - [ ] Video tutorials
+   - [ ] Printed manuals
+
+3. When would you like the system to go live? (Ideal & latest acceptable dates)
+   Ideal: ______________  Latest acceptable: ______________
+
+SECTION 12 — BUDGET, PROCUREMENT & APPROVAL
+1. Do you have a budget allocated for this system?
+   - [ ] Yes  Approx amount: ______________________
+   - [ ] No
+
+2. Who is the final decision maker / approver for purchases? (name & role)
+   _______________________________________________________________
+
+3. Any procurement rules to follow? (e.g., government tender)
+   _______________________________________________________________
+
+SECTION 13 — PROBLEMS & PRIORITIES
+1. What are the main problems you want the system to solve (top 3)?
+   1) _______________________________________________________________
+   2) _______________________________________________________________
+   3) _______________________________________________________________
+
+2. Which features are most important to have at launch? (must-haves)
+   - [ ] Patient registration
+   - [ ] OPD check-in & doctor notes
+   - [ ] Electronic prescriptions
+   - [ ] Lab test requests & results
+   - [ ] Pharmacy dispensing & stock
+   - [ ] Billing
+   - [ ] Reporting
+   - Other must-haves: _______________________________________________
+
+3. Which features can wait until later? (nice-to-haves)
+   _______________________________________________________________
+
+SECTION 14 — EXAMPLES, ATTACHMENTS & NOTES
+Please list any attachments you include with this form (copies of registers, lists of medicines, sample reports, photos of forms, etc.)
+
+Attachment 1: ______________________  Attachment 2: ______________________
+Attachment 3: ______________________  Attachment 4: ______________________
+
+Additional notes or comments:
+_____________________________________________________________________
+_____________________________________________________________________
+_____________________________________________________________________
+
+SIGNATURE
+I confirm that this information is correct to the best of my knowledge.
+
+Name: ______________________   Signature: ______________________   Date: _________
+
+Thank you — the project team will contact you to clarify entries and schedule interviews.
